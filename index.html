@@ -1,0 +1,16 @@
+<html ng-app="app">
+  <head>
+    <script src="angular.min.js"></script>
+    <script src="angular-route.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-controller="MainCtrl">
+  <ul>
+    <li><a href="#/firstPage">First Page</a></li>
+    <li><a href="#/secondPage">Second Page</a></li>
+    <li><a href="#/thirdPage">Third Page</a></li>
+    <li><a href="#/">Back to Home</a></li>
+  </ul>
+  <div ng-view></div>
+  </body>
+</html>
